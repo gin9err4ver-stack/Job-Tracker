@@ -1,1 +1,1 @@
-console.log("Job Tracker initialised!");
+console.log('Job Tracker initialised!');
