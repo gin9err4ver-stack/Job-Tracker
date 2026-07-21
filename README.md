@@ -48,3 +48,20 @@ Current Sprint:
 
 - Project setup completed
 - Beginning implementation of the Job Application model
+
+## Job Application Model
+
+The application now includes a strongly typed `JobApplication` model located in `src/models/JobApplication.ts`.
+
+### Properties
+
+- id
+- company
+- position
+- location
+- status
+- dateApplied
+- salary (optional)
+- notes (optional)
+
+The model uses the `ApplicationStatus` enum to ensure application states remain type-safe throughout the project.
