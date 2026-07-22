@@ -1,5 +1,9 @@
 import { ApplicationStatus } from './models/JobApplication.js';
 import type { JobApplication } from './models/JobApplication.js';
+import {
+  addJobApplication,
+  getApplications,
+} from './services/applicationService.js';
 
 const application: JobApplication = {
   id: '1',
@@ -10,6 +14,7 @@ const application: JobApplication = {
   dateApplied: new Date(),
 };
 
-console.log(application);
+addJobApplication(application);
 
+console.log(getApplications());
 console.log('Job Tracker initialised!');

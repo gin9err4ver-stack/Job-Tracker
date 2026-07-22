@@ -1,0 +1,8 @@
+[33mcommit 4245f252c9e2453d40521d62f7cce0ad135be555[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Colin Brooks <gin9err4ver@gmail.com>
+Date:   Tue Jul 21 16:37:50 2026 +0100
+
+    feat: implement JobApplication model
+
+ README.md | 17 [32m+++++++++++++++++[m
+ 1 file changed, 17 insertions(+)
