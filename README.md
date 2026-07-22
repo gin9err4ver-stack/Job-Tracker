@@ -65,3 +65,25 @@ The application now includes a strongly typed `JobApplication` model located in 
 - notes (optional)
 
 The model uses the `ApplicationStatus` enum to ensure application states remain type-safe throughout the project.
+
+## Job Application Service
+
+The Job Tracker currently supports in-memory job application management.
+
+### Features
+
+- Add a new job application.
+- Validate required fields.
+- Prevent duplicate application IDs.
+- Retrieve stored applications.
+- Unit tested using Vitest.
+
+### Validation
+
+The service validates:
+
+- Company name
+- Application ID
+- Position
+- Location
+- Duplicate IDs
